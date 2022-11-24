@@ -30,7 +30,7 @@ const getInfo=  async(event)=>{
             //condition to check sunny or cloudy
             if (tempMood == "Clear") {
                 temp_status.innerHTML =
-                    "<i class='fas  fa-sun' style='color: #eccc68;'></i>";
+                    "<i class='fas  fa-cloud' style='color: #f1f2f6;'></i>";
                 } else if (tempMood == "Clouds") {
                 temp_status.innerHTML =
                     "<i class='fas  fa-cloud' style='color: #f1f2f6;'></i>";
